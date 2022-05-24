@@ -16,8 +16,8 @@ var vertices = new Float32Array([
 
  var texCoords = new Float32Array([
    
-  //1,1, 1,0, 0,1,   0,1, 1,0, 0,0
-  0,0, 1,0, 0,1, 0,1, 1,0, 1,1,
+   1,1, 1,0, 0,1,   0,1, 1,0, 0,0
+  //0,0, 1,0, 0,1, 0,1, 1,0, 1,1,
   
 ]);
 
@@ -35,6 +35,7 @@ webgl.texParameteri(webgl.TEXTURE_2D, webgl.TEXTURE_MAG_FILTER, webgl.LINEAR);
 webgl.texParameteri(webgl.TEXTURE_2D, webgl.TEXTURE_MIN_FILTER, webgl.LINEAR);
 webgl.texParameteri(webgl.TEXTURE_2D, webgl.TEXTURE_WRAP_S, webgl.CLAMP_TO_EDGE);
 webgl.texParameteri(webgl.TEXTURE_2D, webgl.TEXTURE_WRAP_T, webgl.CLAMP_TO_EDGE);
+webgl.pixelStorei(webgl.UNPACK_FLIP_Y_WEBGL, true);
 
 webgl.texImage2D(webgl.TEXTURE_2D, 0, webgl.RGBA,webgl.RGBA,webgl.UNSIGNED_BYTE, image);
 
