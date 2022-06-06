@@ -9,7 +9,7 @@ webgl.clear(webgl.COLOR_BUFFER_BIT);
 webgl.enable(webgl.DEPTH_TEST);
 var r = 0.5;
 
-let image = document.getElementById("Me");
+let image = document.getElementById("texture");
 
 var vertices = new Float32Array([
 
