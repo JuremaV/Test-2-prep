@@ -9,8 +9,8 @@ let image = document.getElementById("Me");
 
 var vertices = new Float32Array([
      
-   //r,r,r, r,-r,r, -r,r,r, -r,r,r, r,-r,r, -r,-r,r,
-    r,r,r, -r,r,r, r,-r,r,  r,-r,r,  -r,r,r, -r,-r,r,
+   r,r,r, r,-r,r, -r,r,r, -r,r,r, r,-r,r, -r,-r,r,
+  //r,r,r, -r,r,r, r,-r,r,  r,-r,r,  -r,r,r, -r,-r,r,
     
  ]);
 
