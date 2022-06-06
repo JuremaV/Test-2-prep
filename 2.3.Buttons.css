@@ -1,19 +1,19 @@
 canvas{ border: 1px solid black }
 
-/*button{
+button{
     background-color: aliceblue;
-    color: blueviolet;
-    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
     font-weight: bold;
-    width: 140px;
+    width:  80px;
     height: 40px;
     border-radius: 5px;
-    display: block;
+    /*display: block;*/
     margin-top: 10px;
 
 }
 
-span{
+/*span{
     color: rgb(24, 2, 44,);
     font-size: 28px;
     font-weight: bold;
